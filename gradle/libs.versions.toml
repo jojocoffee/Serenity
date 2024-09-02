@@ -12,6 +12,8 @@ uiTextGoogleFonts = "1.6.8"
 datetimeVersion = "0.4.0"
 calenderVersion = "2.6.0-beta04"
 gson = "2.10.1"
+compose-runtime-saveable = "1.6.8"
+runtimeLivedata = "1.6.8" # Replace with the desired version
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,6 +37,8 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.
 androidx-foundation = { module = "androidx.compose.foundation:foundation" }
 calendar = {module = "com.kizitonwose.calendar:compose", version.ref = "calenderVersion" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+androidx-compose-runtime-saveable = { module = "androidx.compose.runtime:runtime-saveable", version.ref = "compose-runtime-saveable" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

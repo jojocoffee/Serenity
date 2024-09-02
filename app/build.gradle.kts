@@ -11,8 +11,8 @@ android {
         applicationId = "com.github.jojocoffee.serenity"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.ui.text.google.fonts)
+    implementation(libs.androidx.runtime.livedata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -75,4 +76,6 @@ dependencies {
     implementation(libs.calendar)
     implementation(libs.gson)
     implementation(libs.androidx.ui.text)
+    implementation(libs.androidx.compose.runtime.saveable)
+
 }
